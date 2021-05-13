@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cronometro"
+        android:textSize="100sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Cronometro"/>
+
     <Chronometer
         android:id="@+id/cronometro"
         android:layout_width="wrap_content"
